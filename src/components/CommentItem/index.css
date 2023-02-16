@@ -1,0 +1,100 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.initial-container {
+  border-width: 0;
+  border-radius: 200px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  margin-top: 2px;
+}
+.name-time {
+  display: flex;
+
+  align-items: center;
+}
+.name {
+  font-size: 20px;
+  color: #334155;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.align-name-comment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.align-profile {
+  display: flex;
+  align-items: flex-start;
+}
+.align-like {
+  display: flex;
+  align-items: center;
+}
+.like-delete {
+  display: flex;
+  justify-content: space-between;
+}
+.like-button {
+  font-weight: 600;
+  color: #64748b;
+  border-width: 0;
+  background-color: transparent;
+}
+.delete-button {
+  border-width: 0;
+  background-color: transparent;
+}
+.delete-icon {
+  height: 20px;
+}
+.like-icon {
+  height: 20px;
+}
+.time {
+  margin-bottom: 0;
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: 6px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+.comment {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.each-comment {
+  margin: 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #dee0e3;
+}
